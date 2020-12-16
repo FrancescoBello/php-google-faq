@@ -75,9 +75,9 @@ $domande =[
      <h3>
      <?php
      for ($i=0; $i < count($domande); $i++) {
-       echo ($domande[$i]["domanda"]);
+       echo ($domande[$i]["domanda"]) ;
        ?></h3>
-           <p>   <?php echo ($domande[$i]["risposta"]) ; ?>   </p>
+           <p>   <?php echo ($domande[$i]["risposta"]); ?>   </p>
 
           <?php
      };
@@ -90,6 +90,7 @@ $domande =[
           <li> <a href="#">Privacy</a> </li>
           <li> <a href="#">Termini</a> </li>
         </ul>
+        <select class="" name=""> Italiano </select>
       </footer>
 
 

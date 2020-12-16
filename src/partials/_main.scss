@@ -9,19 +9,5 @@ main{
     color: rgba(0,0,0,0.87);
       margin-bottom: 50px;
   }
-  ul{
-    padding-left: 150px;
-    list-style-type: none;
-    li{
-      margin-left: 5px;
-      display: inline-block;
-      padding-bottom: $space;
-      a{
-        font-size: 13px;
-        text-decoration: none;
-        color:rgba(0,0,0,0.87);
-        margin-left: 20px;
-      }
-    }
-  }
+
 }
