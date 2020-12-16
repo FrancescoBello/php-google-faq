@@ -1,0 +1,27 @@
+header {
+  border-bottom: 0.5px solid #999;
+}
+header .headtop {
+  height: 60%;
+}
+header .headtop img {
+  float: left;
+  padding: 15px 15px;
+}
+header .headtop p {
+  padding-left: 5px;
+  color: #999;
+  font-size: 20px;
+  float: left;
+  padding-top: 15px;
+}
+header .headbottom {
+  height: 40%;
+  color: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
