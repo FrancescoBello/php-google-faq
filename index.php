@@ -44,16 +44,29 @@ $domande =[
    </head>
    <body>
      <header>
+       <div class="container">
        <div class="headtop">
          <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
-         <p>privacy e termini</p>
-           <div class="head-left">
+         <p class="privacy">Privacy e termini</p>
+         <div class="head-rightnd">
+           <p>f</p>
+         </div>
+           <div class="head-right">
              <i class="fas fa-th"></i>
            </div>
 
+
        </div>
        <div class="headbottom">
+         <ul>
+           <li> <a href="#">Introduzione</a> </li>
+           <li> <a href="#">Norme sulla privacy</a> </li>
+           <li> <a href="#">Termini di servizio</a> </li>
+           <li> <a href="#">Tecnologie</a> </li>
+           <li> <a href="#">Domande Frequenti</a> </li>
+         </ul>
 
+       </div>
        </div>
      </header>
      <main>
@@ -70,7 +83,14 @@ $domande =[
      };
           ?>
       </main>
-      <footer></footer>
+      <footer>
+        <ul>
+          <li> <a href="#">Google</a> </li>
+          <li> <a href="#">Tutto su Google</a> </li>
+          <li> <a href="#">Privacy</a> </li>
+          <li> <a href="#">Termini</a> </li>
+        </ul>
+      </footer>
 
 
    </body>
